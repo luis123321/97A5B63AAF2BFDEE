@@ -1,0 +1,64 @@
+body{
+	padding-bottom: 70px;
+}
+header
+{
+	background-color: #1abc9c;
+	padding-bottom: 20px;
+}
+
+
+
+.title_yl{
+	font-family: 'Dosis', sans-serif;
+	font-size: 36px;
+	text-align: center;
+	font-weight: 400;
+	color: white;
+	cursor: pointer;
+
+}
+
+section{
+	text-align: center;
+}
+
+.login_ct
+{
+	margin-top: 60px;
+}
+
+#btn_login
+{
+	background-color: #E74C3C;
+	color:white;
+	border-radius: 0;
+	border: 0;
+	font-size: 18px;
+	border-radius: 2px;
+	text-align: center;
+}
+
+#btn_login:hover
+{
+	background-color: #EF4836;
+	color:white;
+	border-radius: 0;
+	border: 0;
+	font-size: 18px;
+	border-radius: 2px;
+}
+
+#corp
+{
+	margin-top: 15px;
+	text-align: center;
+}
+.hola{
+	text-align: center;
+}
+
+.alert
+{
+	margin-bottom: 0px;
+}
