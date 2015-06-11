@@ -20,11 +20,12 @@ if($_POST['submit']){
 	if($user == $dbUsername && $pass == $dbPassword){
 		$_SESSION['user'] = $user;
 		$_SESSION['idusers'] = $userId;
-		header('Location: ../administration/index.php');
+		header('Location: ../CBD33B1EC643BADMIN/index.php');
+		echo 'Welcome &user';
 	}	else{
 
 
-		echo '<div class="alert alert-danger" role="alert" style="text-align:center;">Incorret Username or Password</div>';
+		echo '<div class="baduser" role="alert" style="text-align:center;">Incorret Username or Password</div>';
 	}
 
 }
@@ -57,6 +58,7 @@ if($_POST['submit']){
 </header>
 <body>
 	<section>
+		<!-- Login Inputs XS -->
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -86,8 +88,10 @@ if($_POST['submit']){
 				</div>
 			</div>
 		</div>
-	</section>
+	</div>
+	<!-- End Login -->
 
+	</section>
 </body>
 <nav class="navbar navbar-default navbar-fixed-bottom">
   <div class="container">
